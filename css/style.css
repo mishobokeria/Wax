@@ -1,0 +1,249 @@
+/*base classes*/
+.container{
+	
+	margin: 0 auto;
+	max-width: 1170px;
+	width: 100%;
+}
+.p-relative{
+	position: relative;
+}
+.p-absolute{
+	position: absolute;
+}
+.d-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.d-inline-block{
+	display: inline-block;
+}
+body{
+    padding-top: 24px;
+}
+.float-right{
+	float: right;
+}
+
+
+/*end base classes*/
+
+/*header*/
+.header{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index: 20;
+	background: #fff;
+
+}
+.nav-li {
+    font-size: 12px;
+    margin-left: 35px;
+    font-family: 'Stoke', serif;
+
+}
+.main{
+	font-size: 24px;
+	color: #F46060;
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+
+}
+
+
+
+
+
+/*end header*/
+
+/*main section*/
+
+.main-section{
+	background-image: url(https://west-secord.com/wp-content/uploads/sites/3/2018/09/West-Secord-Showhome-Contest-Shopping-Background.jpg);
+
+    height: 783px;
+    width: 1253px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.main-section{
+	margin-top: 50px;
+
+}
+.main-a{
+         color: #fff;
+         font-size: 14px;
+}
+
+
+.headline {
+	left: 360px;
+	bottom: 405px;
+	font-family: 'ZCOOL XiaoWei', serif;
+
+}
+.headline h1{
+	 color: #fff;
+	 font-size: 50px;
+	 text-transform: uppercase;
+	 margin-top: 20px;
+}
+.headline p {
+	color: #fff;
+	font-size: 16px;
+	margin-top: 10px;
+
+}
+/*end main section*/
+
+
+
+.second-section{
+	margin-top: 35px;
+}
+
+.test h2{
+	font-size: 40px;
+	color: red;
+	margin-top: 10px;
+}
+.test{
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.icons{
+	margin-top: 20px;
+	height: 300px;
+	width:195px;
+	background:#F3D179;
+}
+.flex{
+	display: flex;
+	justify-content: center;
+}
+.icons:nth-child(3){
+	background:#E56453;
+}
+.main-a:hover{
+	color: #A0ADD8;
+	border: 2px outset #647ED2; 
+}
+.main-a{
+     margin-left: 55px;
+     font-size: 20px;
+     font-family: 'ZCOOL XiaoWei', serif;
+}
+
+
+
+.icons img{
+	margin-left: 75px;
+	margin-top: 60px;
+}
+.icons p{
+	width: 150px;
+	margin-top:20px;
+	margin-left: 20px;
+}
+.icons h2 {
+	margin-left: 75px;
+	margin-top: 10px;
+}
+
+.col{
+	margin-top: 135px;
+}
+
+/*academy section*/
+
+.academy-section{
+	margin-top: 200px;
+}
+.academy-title{
+	padding-right: 130px;
+}
+.academy-title h1{
+	font-size: 40px;
+	font-family: 'ZCOOL XiaoWei', serif;
+	margin-bottom: 30px;
+}
+.academy-title p{
+	font-size: 12px;
+	font-family: 'ZCOOL XiaoWei', serif;
+	line-height: 20px;
+}
+
+
+
+/*end academy section*/
+
+/*tag section*/
+.tag-section{
+	background: #EBEDE0;
+	margin-top: 160px;
+}
+.wax-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    padding: 50px 0 50px 0;
+}
+.wax-flex img:nth-child(4),
+.wax-flex img:nth-child(5),
+.wax-flex img:nth-child(6){
+	margin-top: 30px;
+}
+.tag h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 28px;
+	font-family: 'ZCOOL XiaoWei', serif;
+	padding-top: 30px;
+}
+
+
+
+
+
+/*end tag section*/
+
+
+/*social section*/
+.shortacts{
+	margin-top: 135px;
+}
+.sho-ul{
+	display: flex;
+	justify-content: center;
+}
+.sho-li{
+	margin-right: 50px;
+}
+.fab{
+	font-size: 20px;
+
+}
+.sho-h{
+	margin-top: 90px;
+}
+
+
+/*end social section*/
+
+
+
+
+
+
+
+
+
+
+
+
