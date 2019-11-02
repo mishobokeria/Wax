@@ -265,26 +265,39 @@ body{
 }
 .col-1:first-child{
 	margin-top: 50px;
-	font-family: 'ZCOOL XiaoWei', serif;
+	
+}
+.colomn-1 h1{
+	font-family: 'Abril Fatface', cursive;
 }
 .col-1:nth-child(2),
 .col-1:nth-child(3){
 	margin-top: 25px;
 }
-.col{
+.colo{
 	font-size: 14px;
+	width: 90px;
+	height: 173px;
 }
-.col h2{
+.colo h2{
 	font-size: 18px;
 	margin-bottom: 26px;
+	font-family: 'Abril Fatface', cursive;
 
 }
-.col p{
+.colo p{
 	margin-bottom: 27px;
+   font-family: 'ZCOOL XiaoWei', serif;
 
 }
 .fas{
 	margin-right: 10px;
+}
+.colomns{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 /*end footer*/
