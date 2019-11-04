@@ -428,6 +428,7 @@ body{
         .academy-title{
         	
         	margin-top: 50px;
+        	margin-left: 50px;
         }
         .academy{
         	-ms-flex-wrap: wrap;
@@ -452,6 +453,9 @@ body{
 		}
 		.icons{
 			margin-left: 20px;
+		}
+		.tes{
+			margin-right: 20px;
 		}
 }
       
