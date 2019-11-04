@@ -12,9 +12,15 @@
 	position: absolute;
 }
 .d-flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .d-inline-block{
 	display: inline-block;
@@ -26,6 +32,9 @@ body{
 	float: right;
 }
 
+.fb-like{
+	margin-bottom: 20px;
+}
 
 /*end base classes*/
 
@@ -78,6 +87,8 @@ body{
 .main-a{
          color: #fff;
          font-size: 14px;
+         -webkit-transition: all 2s linear;
+         -o-transition: all 2s linear;
          transition: all 2s linear;
 }
 
@@ -133,8 +144,12 @@ body{
 	background:#F3D179;
 }
 .flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .icons:nth-child(3){
 	background:#E56453;
@@ -198,9 +213,14 @@ body{
 	margin-top: 160px;
 }
 .wax-flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
     padding: 50px 0 50px 0;
 }
 .wax-flex img:nth-child(4),
@@ -209,9 +229,15 @@ body{
 	margin-top: 30px;
 }
 .tag h2{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	font-size: 28px;
 	font-family: 'ZCOOL XiaoWei', serif;
 	padding-top: 30px;
@@ -229,8 +255,12 @@ body{
 	margin-top: 135px;
 }
 .sho-ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .sho-li{
 	margin-right: 50px;
@@ -246,13 +276,18 @@ body{
 	font-family: 'ZCOOL XiaoWei', serif;
 }
 .form-flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 /*	flex-direction: column;
 */	/*align-items: center;*/
 	/*max-width: 640px;*/
     width: 100%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-bottom: 30px;
+    font-family: 'ZCOOL XiaoWei', serif;
 }
 .input-form{
 	width: 100%;
@@ -339,9 +374,17 @@ body{
 }
 .colomns{
 	
+	display: -webkit-box;
+	
+	display: -ms-flexbox;
+	
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 }
 
 /*end footer*/
@@ -351,13 +394,20 @@ body{
 
 @media only screen and (max-width: 1024px){
           .colomns {
+          	display: -webkit-box;
+          	display: -ms-flexbox;
           	display: flex;
-          	justify-content: space-around;
+          	-ms-flex-pack: distribute;
+          	    justify-content: space-around;
           } 
           .wax-flex{
+					display: -webkit-box;
+					display: -ms-flexbox;
 					display: flex;
-					flex-wrap: wrap;
-					justify-content: space-around;
+					-ms-flex-wrap: wrap;
+					    flex-wrap: wrap;
+					-ms-flex-pack: distribute;
+					    justify-content: space-around;
 				    padding: 50px 0 50px 0;
          }
     
@@ -365,8 +415,11 @@ body{
         	margin-top: 25px;
         }
         .icon-section{
-        	flex-wrap: wrap;
-        	justify-content: center;
+        	-ms-flex-wrap: wrap;
+        	    flex-wrap: wrap;
+        	-webkit-box-pack: center;
+        	    -ms-flex-pack: center;
+        	        justify-content: center;
         }
         .academy-img{
         	margin-left: 20px;
@@ -376,8 +429,11 @@ body{
         	margin-top: 50px;
         }
         .academy{
-        	flex-wrap: wrap;
-        	justify-content: center;
+        	-ms-flex-wrap: wrap;
+        	    flex-wrap: wrap;
+        	-webkit-box-pack: center;
+        	    -ms-flex-pack: center;
+        	        justify-content: center;
         }
         .headline {
 			left: 250px;
@@ -425,7 +481,6 @@ body{
 
 
  
-
 
 
 
